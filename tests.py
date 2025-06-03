@@ -1,5 +1,5 @@
 import unittest
-from Chyslivnyk import (
+from chyslivnyk import (
     Chyslivnyk, # Імпортуємо клас
     CASE_NOMINATIVE, CASE_GENITIVE, CASE_DATIVE, CASE_ACCUSATIVE, CASE_INSTRUMENTAL, CASE_LOCATIVE,
     GENDER_MASCULINE, GENDER_FEMININE, GENDER_NEUTER, NUMBER_PLURAL
