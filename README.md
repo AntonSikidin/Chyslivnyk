@@ -11,18 +11,14 @@
 Бібліотека складається з одного файлу `Chyslivnyk.py`. Для використання просто завантажте його у ваш проект або скопіюйте його вміст.
 
 ```bash
-# Якщо ви завантажили папку Chyslivnyk:
-# cd your_project_folder
-# git clone [https://github.com/AntonSikidin/Chyslivnyk.git](https://github.com/AntonSikidin/Chyslivnyk.git)
-
-# Або просто скопіюйте файл Chyslivnyk.py до вашого проекту.
+pip install chyslivnik
 ```
 
 # Основне використання
 
 Спочатку створіть екземпляр класу Chyslivnyk, а потім викликайте його методи. Імпортуйте необхідні константи (вони залишаються на рівні модуля для зручності):
 ```Python
-from Chyslivnyk import (
+from chyslivnyk import (
     Chyslivnyk, # Імпортуємо клас
     CASE_NOMINATIVE, CASE_GENITIVE, CASE_DATIVE, CASE_ACCUSATIVE, CASE_INSTRUMENTAL, CASE_LOCATIVE,
     GENDER_MASCULINE, GENDER_FEMININE, GENDER_NEUTER, NUMBER_PLURAL
